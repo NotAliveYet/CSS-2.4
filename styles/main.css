@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#picture {
+    background-image: url(../images/image.svg);
+    max-width: 1400px;
+    width: 100%;
+    height: 674px;
+    border-radius: 33px;
+    text-align: center;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#p {
+    max-width: 1258px;
+    width: 100%;
+    color: #FFF;
+    font-family: Poetsen0ne;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#first_container {
+    width: 1137px;
+    padding: 40px 32px;
+    border-radius: 24px;
+    background: #ebf8fe;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+
+#first_h {
+    text-align: center;
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -1.28px;
+    max-width: 971px;
+    width: 100%;
+}
+
+#first_p {
+    color: #535863;
+    text-align: center;
+    max-width: 1072px;
+    width: 100%;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 24px;
+    font-family: "Instrument Sans";
+}
+
+#mail_container {
+    max-width: 488px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#mailbox {
+    background: #FFF;
+}
+
+#email_input {
+    padding: 12px 14px;
+    max-width: 345px;
+    width: 100%;
+    color: #717680;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+
+#button_box {
+    display: inline-block;
+
+}
+
+
+/* WHY IS SUBMIT BOX WHITE INSTEAD OF TRANSPARENT */
+
+
+#submit_box {
+    color: #FFF;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: #007CB8;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#policy_p {
+    max-width: 345px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8px;
+    color: #535862;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#privacy_only {
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    text-decoration-style: solid;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+#second_container {
+    max-width: 546px;
+    padding: 40px 32px;
+    border-radius: 24px;
+    background: #EBF8FE;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+#submit_h {
+    color: #181D27;
+    font-family: "Inria Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+
+}
+
+#full_name {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: "Noto Sans Georgian";
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+#name {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    max-width: 482px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+}
+
+#email_label {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-family: "Noto Sans Georgian";
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+#email {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #380054;
+    max-width: 482px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+}
+
+#recomment_xd {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 7px;
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+
+.radio_group {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.radio_group #radio .separator {
+    display: inline-block;
+}
+
+.radio_group label {
+    display: inline-block;
+}
+
+.separator {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+.yes {
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.radio {
+    vertical-align: middle;
+}
+
+#yes {
+    vertical-align: middle;
+}
+
+
+.checkbox_group {
+    display: block;
+}
+
+.checkbox_group #checkbox .separator {
+    display: inline-block;
+}
+
+.checkbox_group label {
+    display: inline-block;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.checkbox {
+    vertical-align: middle;
+}
+
+.align {
+    vertical-align: middle;
+}
+
+#languages {
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+#separator_seperator {
+    padding-bottom: 10px;
+}

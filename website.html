@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cool picture</title>
+    <link rel="icon" href="images/icon.svg">
+    <meta name="author" content="ლუკა ქვრივიშვილი" />
+    <!-- FONTS -->
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Georgian:wght@100..900&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <p id="picture">
+                <span id="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam,</span>
+            </p>
+        </div>
+    </header>
+    <main>
+        <div id="first_container">
+            <h1 id="first_h">Be the first to know when we launch</h1>
+            <p id="first_p">
+                We’re still building. Subscribe for updates and 20% off when we launch.
+                No spam, we promise!
+            </p>
+
+            <form action="#">
+                <div id="mail_container">
+                    <div id="mail_box">
+                        <input type="email" placeholder="Enter your email" id="email_input" name="user_email" />
+                        <div id="button_box">
+                            <input type="submit" value="Subscribe" id="submit_box" />
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+            <p id="policy_p">We care about your data in our <span id="privacy_only">privacy policy.</span></p>
+
+        </div>
+        <div id="second_container">
+            <div id="sign_container">
+                <div id="name_container">
+                    <h1 id="submit_h">Submit form</h1>
+                    <label for="name" id="full_name">Full name</label>
+                    <input type="text" id="name" placeholder="Please write you name" />
+                </div>
+                <div id="email_container">
+                    <label for="email" id="email_label">Email</label>
+                    <input type="email" id="email" placeholder="Please write your email" />
+                </div>
+            </div>
+            <div id="geeks_container">
+                <label id="recomment_xd">Would you recomment GeeksforGeeks to a friends?</label>
+                <!-- CLASS INSTEAD OF ID -->
+                <div class="radio_group">
+                    <input type="radio" class="radio" name="recommend">
+                    <label class="yes">Yes</label>
+                </div>
+                <div class="radio_group">
+                    <input type="radio" class="separator" name="recommend">
+                    <label class="yes">Yes</label>
+                </div>
+                <div class="radio_group">
+                    <input type="radio" class="radio" name="recommend">
+                    <label class="yes">Yes</label>
+                </div>
+                <label id="languages">Language and frameworks known (Checks all that apply)</label>
+                <div id="check_group">
+                    <div class="checkbox_group">
+                        <input type="checkbox" class="checkbox">
+                        <label class="align">C</label>
+                    </div>
+                    <div class="checkbox_group">
+                    <input type="checkbox" class="checkbox">
+                    <label class="separator">C++</label>
+                    </div>
+                    <div class="checkbox_group">
+                        <input type="checkbox" class="checkbox">
+                        <label id="separator_seperator">Java</label>
+                    </div>
+                    <div class="checkbox_group">
+                        <input type="checkbox" class="checkbox">
+                        <label class="align">Python</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
